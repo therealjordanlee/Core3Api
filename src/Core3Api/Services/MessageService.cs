@@ -6,7 +6,7 @@ namespace Core3Api.Services
     {
         public string GetMessage()
         {
-            return Environment.GetEnvironmentVariable("TEMP");
+            return Environment.GetEnvironmentVariable("message");
         }
     }
 }
